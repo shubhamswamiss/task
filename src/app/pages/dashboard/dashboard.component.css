@@ -1,0 +1,302 @@
+nav {
+  background: #142a4a 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: 100px;
+  border-bottom: 3px solid #132c51;
+}
+.navbar-brand img {
+  margin-left: 100px;
+}
+.navbar-collapse {
+  background-color: #142a4a;
+  color:#142a4a;
+  z-index: 1;
+  width: 100%;
+}
+.row {
+  --bs-gutter-x: 0rem;
+}
+
+ul {
+  margin-left: 5px;
+}
+
+.nav-link {
+  font: normal normal normal 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff80;
+  opacity: 1;
+  margin: 5px;
+}
+.nav-link:hover {
+  color: white;
+}
+
+@media (max-width:1440px) {
+  .nav-link{
+    font-size: 10px;
+  }
+
+}
+
+.loginBtn {
+  width: 120px;
+  height: 44px;
+  background: #ff5757 0% 0% no-repeat padding-box;
+  border-radius: 22px;
+  opacity: 1;
+  font: normal normal 600 16px/26px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.newAccBtn {
+  width: 199px;
+  height: 44px;
+  background: #ffffff1a 0% 0% no-repeat padding-box;
+  border-radius: 22px;
+  opacity: 1;
+  font: normal normal normal 14px/26px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.navbar-toggler {
+  border-color: rgba(255,
+      255,
+      255,
+      0.5);
+  /* Makes the border of the button semi-transparent white */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.searchBtn:hover {
+    width: 255px;
+  }
+
+.searchBtn {
+  width: 44px;
+  height: 44px;
+  background: #ffffff14 0% 0% no-repeat padding-box;
+  border-radius: 22px;
+  opacity: 1;
+  border: none;
+  color: white;
+  margin-right: 10px;
+  padding: 15px;
+  transition: width 1s;
+}
+.bellBtn{
+    width: 44px;
+    height: 44px;
+    background: #ffffff14 0% 0% no-repeat padding-box;
+    border-radius: 22px;
+    opacity: 1;
+    border: none;
+    color: white;
+    margin-right: 10px;
+    padding: 15px;
+    transition: width 1s;
+}
+
+.newAccBtn {
+  width: 199px;
+  height: 44px;
+  background: #ffffff1a 0% 0% no-repeat padding-box;
+  border-radius: 22px;
+  opacity: 1;
+  font: normal normal normal 14px/26px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.dropdown-btn {
+  width: 199px;
+  height: 44px;
+  background: #ffffff1a;
+  border: none;
+  border-radius: 22px;
+  opacity: 1;
+  font: normal normal normal 14px/26px Poppins, sans-serif;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.profile-icon {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.dropdown-toggle::after {
+  margin-left: auto;
+  color: #ffffff;
+}
+
+.dropdown-menu {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000004d;
+  border-radius: 22px;
+  opacity: 1;
+}
+
+.hero-section {
+  background: #142a4a 0% 0% no-repeat padding-box;
+  padding: 45px 0px 81px 0px;
+  color: #fff;
+}
+
+.welcome {
+  text-align: left;
+  font: normal normal 300 20px/26px Poppins;
+  letter-spacing: 0px;
+  color: #657692;
+}
+
+.monday {
+  text-align: left;
+  font: normal normal normal 14px Poppins;
+  letter-spacing: 0px;
+  color: #657692;
+  opacity: 1;
+}
+
+.download {
+  text-align: left;
+  font: normal normal normal 16px/26px Poppins;
+  letter-spacing: 0px;
+  color: #657692;
+  opacity: 1;
+}
+
+.yearDropdown {
+  width: 150px;
+  height: 44px;
+  background: #ffffff1a;
+  border-color: white;
+  border-radius: 22px;
+  opacity: 1;
+  font: normal normal normal 14px/26px Poppins, sans-serif;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+.downloadBtn {
+  width: 44px;
+  height: 44px;
+  background: #ffffff14 0% 0% no-repeat padding-box;
+  border-radius: 22px;
+  color: white;
+  border: 1px solid #ffffff;
+  border-radius: 22px;
+  opacity: 1;
+}
+
+.cardSection {
+  width: 95%;
+  height: 144px;
+  background: #e1e4e7 0% 0% no-repeat padding-box;
+  box-shadow: 0px 15px 30px #00000033;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  opacity: 1;
+  margin-top: -70px;
+  backdrop-filter: blur(29px);
+  -webkit-backdrop-filter: blur(29px);
+}
+
+@media (max-width: 768px) {
+  .cardSection {
+      margin-top:0;
+  }
+  .since {
+    font-size: 18px !important;
+  }
+}
+.customersImg {
+  width: 50px;
+  height: 50px;
+  background: #e1e4f8 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+}
+.card-title {
+  text-align: left;
+  font: normal normal 600 20px Poppins;
+  letter-spacing: 0px;
+  color: #192537;
+  opacity: 1;
+}
+.card-subtitle {
+  text-align: left;
+  font: normal normal bold 30px/26px Poppins;
+  letter-spacing: 0px;
+  color: #192537;
+  opacity: 1;
+}
+.customerSpan {
+  width: 44px;
+  height: 23px;
+  text-align: left;
+  font: normal normal 600 16px/25px Poppins;
+  letter-spacing: 0px;
+  color: #ff5757;
+  opacity: 1;
+}
+.since {
+  width: 159px;
+  height: 28px;
+  text-align: left;
+  font: normal normal normal 18px Poppins;
+  letter-spacing: 0px;
+  color: #192537;
+  opacity: 1;
+}
+
+@media (max-width: 1024px){
+  .since{
+    font-size: 10px;
+  }
+  .cardSection p{
+    margin: 0;
+  }
+}
+.card-text {
+  text-align: center;
+}
+.cardChartSection {
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+}
+.salesCard {
+  width: 90%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e6e6e6;
+  border-radius: 15px;
+  opacity: 1;
+}
+.chartsHeading {
+  width: 100%;
+  height: 28px;
+  text-align: left;
+  font: normal normal 600 20px/26px Poppins;
+  letter-spacing: 0px;
+  color: #192537;
+  opacity: 1;
+}
+.supportCard {
+  width: 90%;
+  background: #142a4a 0% 0% no-repeat padding-box;
+  border: 1px solid #e6e6e6;
+  border-radius: 15px;
+  opacity: 1;
+}
+.supportCard img{
+    border-radius: 15px;
+}
+

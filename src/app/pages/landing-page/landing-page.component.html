@@ -1,0 +1,294 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="assets/ltechlogo.png" alt="TechLogo" width="115px" height="31px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto nav nav-underline">
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+            <div class="d-flex me-5">
+                <i class="fas fa-search searchBtn">
+                    <!-- <input type="text" class="searchInput">     -->
+                </i>
+                <button class="btn  me-2 newAccBtn">Create New Account</button>
+                <button class="btn btn-danger loginBtn" (click)="login()">Login</button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Section -->
+<section class="hero-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="empowerTxt">Empowering Your Business</div>
+                <div class="highlight">Simplifying Your Sales<span style="color:white">.</span></div>
+                <p class="para">
+                    Sed eu massa luctus, tempor lacus ac, bibendum urna. Fusce bibendum sit amet nisl bibendum. Etiam
+                    sed augue euismod, viverra dolor eu, aliquet massa Aliquam accumsan sollicitudin luctus Nulla tempus
+                    quam felis, eu ullamcorper nunc vestibulum eu Nam ullamcorper tempus mi sit amet imperdiet In
+                    gravida felis velit, vel tempus purus euismod vitae Donec.
+                </p>
+                <div class="mt-5">
+                    <button class="btn btn-primary learnBtn">Learn More</button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 ">
+                <div class="d-flex flex-row-reverse">
+                    <div>
+                        <img src="assets/sliderImg.png" alt="Business Image" width="100%"
+                            class="img-fluid rounded img-right">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Why Choose Section -->
+<section class="why-choose-section py-5 mt-5">
+    <div class="container">
+        <!-- Heading and Subheading -->
+        <div class="text-center mb-4">
+            <h2 class="sed">Why Choose <span class="text-highlight">Trexo</span>?</h2>
+            <p class="sed" style="color: #142A4A;">
+                Sed eu massa luctus,tempor lacus ac,bibendum urna.Fusce bibendum sit amet nisl bibendum. Etiam sed
+                augue euismod,viverra dolor eu, aliquet massa Aliquam accumsan sollicitudin luctus.
+            </p>
+        </div>
+
+        <div class="statistics-section">
+            <div class="statistics">
+                <div class="row justify-content-center">
+                    <div class="col-lg-3 col-md-4 col-sm-12 text">
+                        <span class="text-highlight">100+</span>
+                        <p class="stats m-0 p-2"><b>Serve Cities</b></p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12  text">
+                        <span class="text-highlight">5Lr+ &nbsp;</span>
+                        <p class="stats m-0 p-2"><b>Consumers</b></p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12  text">
+                        <span class="text-highlight">&nbsp;1Cr+</span>
+                        <p class="stats m-0 p-2"><b>Monthly Orders</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="building_section">
+    <div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-12">
+            <img src="assets/building.png" width="100%" alt="Building">
+        </div>
+        <div class="col-lg-1 col-md-1  col-sm-12"></div>
+        <div class="col-lg-6 col-md-6 col-sm-12 trexo_seller">
+            <h3 class="m-4"><b><span style="color:#FF5757">Become</span>&nbsp;<span style="color: #192537;">Trexo Seller</span><span
+                        style="color: #FF5757;">.</span></b></h3>
+            <p>Sed eu massa luctus, tempor lacus ac, bibendum urna. Fusce bibendum sit amet
+                nisl bibendum. Etiam sed augue euismod, viverra dolor eu.Fusce bibendum sit amet nisl bibendum. Etiam sed
+                augue euismod,viverra dolor eu, aliquet massa Aliquam accumsan sollicitudin luctus.
+            </p>
+            <div class="">
+                <button class="btn m-3 mx-5">View All -></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Onboarding Process Section -->
+<section class="onboarding-section py-5">
+    <div class="container">
+        <!-- Heading -->
+        <div class="text-center mb-5">
+            <h2><span class="text-highlight">Onboarding</span> Process<span class="text-highlight">.</span></h2>
+        </div>
+
+        <!-- Steps Row -->
+        <div class="row text-center text-sm-center">
+            <!-- Step 1 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card step-box">
+                    <img src="assets/profile.png" class="card-img-top" alt="Profile">
+                    <div class="card-body ">
+                        <h4 class="step-number">Step 1</h4>
+                        <h5>Create your account</h5>
+                        <p>Seller can discover the platform and features.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="card step-box">
+                    <img src="assets/profile.png" class="card-img-top" alt="Profile">
+                    <div class="card-body ">
+                        <h4 class="step-number">Step 2</h4>
+                        <h5>Set your store & Add Product</h5>
+                        <p>Seamless process to set up store and add product.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card step-box">
+                    <img src="assets/profile.png" class="card-img-top" alt="Profile">
+                    <div class="card-body ">
+                        <h4 class="step-number">Step 3</h4>
+                        <h5>Start Receiving Orders</h5>
+                        <p>Order & other dedicated menu to fulfilled customers orders.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mt-5">
+    <div class="row justify-content-center p-5">
+        <img src="assets/orange.png" alt="img">
+    </div>
+</section>
+
+<section class="partner-section mt-5">
+    <div class="container">
+        <h2><span class="text-highlight">Our Happy</span> Partners<span class="text-highlight">.</span></h2>
+        <div class="row mt-5">
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card partner-card highlight-border">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <div>
+                                <img src="assets/mrunal.png" class="mb-3" alt="Mrunal Kulkarni">
+                            </div>
+                            <div>
+                                <h6 class="partner-card-title">Mrunal Kulkarni</h6>
+                                <p class="card-subtitle">Pune, Maharashtra</p>
+                            </div>
+                        </div>
+
+                        <p class="card-text">
+                            "Sed eu massa luctus,tempor lacus ac,bibendum urna.Fusce bibendum sit amet nisl bibendum."
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card partner-card">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <div>
+                                <img src="assets/arun.png" class="mb-3" alt="Arun Patel">
+                            </div>
+                            <div>
+                                <h6 class="arun-card-title">Arun Patel</h6>
+                                <p class="arun-card-subtitle">Mumbai, Maharashtra</p>
+                            </div>
+                        </div>
+
+                        <p class="card-text">
+                            "Sed eu massa luctus,tempor lacus ac,bibendum urna.Fusce bibendum sit amet nisl bibendum."
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card partner-card">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <div>
+                                <img src="assets/sudarshan.png" class="mb-3" alt="Sudarshan Chakrapani">
+                            </div>
+                            <div class="">
+                                <h6 class="scard-title">Sudarshan Chakrapani</h6>
+                                <p class="card-subtitle">Panaji, Goa</p>
+                            </div>
+                        </div>
+
+                        <p class="card-text">
+                            "Sed eu massa luctus,tempor lacus ac,bibendum urna.Fusce bibendum sit amet nisl bibendum."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mt-5">
+    <div class="row justify-content-center p-5">
+        <img src="assets/blue.png" alt="img">
+    </div>
+</section>
+
+<!-- footer section  -->
+<footer class="footer">
+    <div class="container">
+        <div class="row text-center text-md-start">
+            <div class="col-md-4 mb-4 mb-md-0 px-5">
+                <div class="footer-logo">
+                    <img src="assets/footerLogo.png" alt="TechLogo" width="160px" height="47px">
+                </div>
+                <p class="mt-2 footerpara">
+                    Lorem Ipsum dolor Sed eu massa luctus, tempor lacus ac, bibendum urna. Fusce bibendum sit amet nisl
+                    amet augue euismod, viverra dolor eu.
+                </p>
+                <div class="footer-icons mt-5">
+                    <button type="button">
+                        <i class="fa-brands fa-instagram"></i>
+                    </button>
+                    <button type="button">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </button>
+                    <button type="button">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4 mb-md-0 px-5">
+                <h5 class="footer-heading">Contact Us<span>.</span></h5>
+                <p class="mt-3 footerpara">
+                    Lorem Ipsum dolor Sed eu massa luctus, tempor lacus ac, bibendum urna. Fusce bibendum sit amet nisl
+                    amet augue euismod, viverra dolor eu.
+                </p>
+            </div>
+
+            <div class="col-md-3 mb-4 mb-md-0 px-5">
+                <h5 class="footer-heading mx-5">Services<span style="color: #FF5757;">.</span></h5>
+                <ul class="list-unstyled mt-3 footerpara">
+                    <li>* Lorem Ipsum dolor</li>
+                    <li>* Sed eu massa luctus</li>
+                    <li>* Tempor lacus ac</li>
+                    <li>* Bibendum urna</li>
+                    <li>* Fusce bibendum</li>
+                    <li>* Sit amet nisl amet</li>
+                    <li>* Augue euismod</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</footer>
